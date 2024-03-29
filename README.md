@@ -1,8 +1,10 @@
-### This repo contains code we used for InnovateX hackathon. My friend and I built fully speech-supported multilingual AI Telegram bot in one day.
+## This repo contains code we used for InnovateX hackathon. My friend and I built fully speech-supported multilingual AI Telegram bot in one day.
 
 ### The demo is available at [Demo Link](https://www.linkedin.com/posts/tkaiyrbekov_a-few-weeks-ago-yerdaulet-kappar-and-i-participated-activity-7115784331872116736-_pxB?utm_source=share&utm_medium=member_desktop)
 
 ### The explanation is available at [Post Link](https://www.linkedin.com/posts/tkaiyrbekov_to-add-up-to-a-previous-post-here-is-the-activity-7115787050435379200-q6lD?utm_source=share&utm_medium=member_desktop)
+
+### ![Architecture/design of our AI bot](hackathon_model.jfif)
 
 ### main.py - main part of the solution that supports the bot;
 
@@ -10,7 +12,7 @@
 
 ### vosk-model-small - weights of the Vosk model for STT;
 
-### sppech_for_STT - своя запись для теста STT;
+### speech_for_STT - our speech for testing STT model;
 
 ### get.py - code with a data retriver and connection to ChatGPT (key is removed);
 
